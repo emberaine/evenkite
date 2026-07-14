@@ -57,6 +57,8 @@ modules:
           - org.gnome.Decibels
           - org.gnome.Showtime
           - org.gnome.Papers
+          - net.trowell.typesetter
+          - com.github.PintaProject.Pinta
           - org.gnome.Calendar
           - io.github.flattool.Warehouse
           - com.github.tchx84.Flatseal
