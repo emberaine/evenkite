@@ -19,6 +19,7 @@ modules:
 
   - type: dnf
     repos:
+    cleanup: true
       copr:
         - atim/starship
         - lilay/topgrade
@@ -32,6 +33,7 @@ modules:
         - btop
         - htop
         - nvtop
+        - tree
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -41,15 +43,19 @@ modules:
         - ptyxis
         - gnome-tour
         - yelp
+        - gnome-software
 
   - type: default-flatpaks
     configurations:
-      - notify: true # Send notification after install/uninstall is finished (true/false)
+      - notify: false # Send notification after install/uninstall is finished (true/false)
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
           - org.mozilla.firefox
           - org.gnome.Loupe
+          - org.gnome.Decibels
+          - org.gnome.Showtime
+          - io.github.kolunmi.Bazaar
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: os-release
