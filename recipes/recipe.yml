@@ -28,7 +28,7 @@ modules:
         - fastfetch
         - topgrade
         - neovim
-        - blackbox
+        - blackbox-terminal
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
