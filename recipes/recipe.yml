@@ -29,6 +29,9 @@ modules:
         - topgrade
         - neovim
         - blackbox-terminal
+        - btop
+        - htop
+        - nvtop
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
