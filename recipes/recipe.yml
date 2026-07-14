@@ -27,6 +27,7 @@ modules:
       packages:
         - starship
         - fastfetch
+        - hyfetch
         - topgrade
         - neovim
         - blackbox-terminal
@@ -47,16 +48,21 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: false # Send notification after install/uninstall is finished (true/false)
+      - notify: false
         scope: system
-        # If no repo information is specified, Flathub will be used by default
-        install: # system flatpaks we want all users to have and not remove
+        install:
+          - io.github.kolunmi.Bazaar
           - org.mozilla.firefox
           - org.gnome.Loupe
           - org.gnome.Decibels
           - org.gnome.Showtime
-          - io.github.kolunmi.Bazaar
-      - scope: user # Also add Flathub user repo, but no user packages
+          - org.gnome.Papers
+          - org.gnome.Calendar
+          - io.github.flattool.Warehouse
+          - com.github.tchx84.Flatseal
+          - it.mijorus.gearlever
+      - notify: false
+        scope: user # Also add Flathub user repo, but no user packages
 
   - type: os-release
     properties:
