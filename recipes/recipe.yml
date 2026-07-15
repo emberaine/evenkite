@@ -71,8 +71,8 @@ modules:
     properties:
       ID: evenkite
       ID_LIKE: fedora
-      NAME: Evenkite Linux
-      PRETTY_NAME: "Evenkite Linux"
+      NAME: Evenkite
+      PRETTY_NAME: "Evenkite"
       HOME_URL: "https://github.com/emberaine/evenkite/"
       BUG_REPORT_URL: "https://github.com/emberaine/evenkite/issues"
       DEFAULT_HOSTNAME: evenkite
