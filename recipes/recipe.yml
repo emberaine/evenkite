@@ -25,13 +25,11 @@ modules:
         - lilay/topgrade
     install:
       packages:
-        - xdg-terminal-exec
         - starship
         - fastfetch
         - hyfetch
         - topgrade
         - neovim
-        - blackbox-terminal
         - btop
         - htop
         - nvtop
@@ -43,7 +41,6 @@ modules:
         # "firefox" is the main package, "firefox-langpacks" is a dependency
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-        - ptyxis
         - gnome-tour
         - yelp
         - gnome-software
