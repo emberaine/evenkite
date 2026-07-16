@@ -1,7 +1,0 @@
-[org/gnome/Ptyxis]
-profile-uuids=['fishshell-0000-0000-0000-000000000000']
-default-profile-uuid='fishshell-0000-0000-0000-000000000000'
-
-[org/gnome/Ptyxis/Profiles/fishshell-0000-0000-0000-000000000000]
-use-custom-command=true
-custom-command='/usr/bin/fish'
