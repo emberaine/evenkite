@@ -81,7 +81,7 @@ modules:
 
   - type: script
     scripts:
-      - cleanup.sh
+      - finishingtouches.sh
 
   - type: initramfs
 
