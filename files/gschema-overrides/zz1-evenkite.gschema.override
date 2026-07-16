@@ -1,10 +1,16 @@
 [org.gnome.desktop.app-folders]
-folder-children=['Utilities','System']
-
-[org.gnome.desktop.app-folders.folders.System]
-name='Sytem'
-apps=['org.gnome.Ptyxis.desktop']
-translate=true
+folder-children=[]
 
 [org.gnome.shell]
 favorite-apps=[]
+
+[org.gnome.desktop.app-folders]
+folder-children=[]
+
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/evenkite/evenkite_light.png'
+picture-uri-dark='file:///usr/share/backgrounds/evenkite/evenkite_dark.png'
+picture-options='zoom'
+
+[org.gnome.desktop.interface]
+gtk-theme = "adw-gtk3"
