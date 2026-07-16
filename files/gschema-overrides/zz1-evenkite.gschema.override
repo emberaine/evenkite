@@ -1,0 +1,5 @@
+[com.raggesilver.BlackBox]
+use-custom-command=true
+
+[com.raggesilver.BlackBox]
+custom-shell-command='fish'

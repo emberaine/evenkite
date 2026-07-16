@@ -25,6 +25,7 @@ modules:
         - lilay/topgrade
     install:
       packages:
+        - xdg-terminal-exec
         - starship
         - fastfetch
         - hyfetch
@@ -76,6 +77,10 @@ modules:
       HOME_URL: "https://github.com/emberaine/evenkite/"
       BUG_REPORT_URL: "https://github.com/emberaine/evenkite/issues"
       DEFAULT_HOSTNAME: evenkite
+
+  - type: gschema-overrides
+    include:
+      - zz1-evenkite.gschema.override # test & compile specific override file
 
   - type: script
     scripts:
