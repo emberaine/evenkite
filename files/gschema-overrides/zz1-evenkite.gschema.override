@@ -1,0 +1,10 @@
+[org.gnome.desktop.app-folders]
+folder-children=['Utilities','System']
+
+[org.gnome.desktop.app-folders.folders.System]
+name='Sytem'
+apps=['org.gnome.Ptyxis.desktop']
+translate=true
+
+[org.gnome.shell]
+favorite-apps=[]
