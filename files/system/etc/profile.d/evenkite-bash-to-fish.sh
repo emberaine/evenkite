@@ -12,7 +12,7 @@
 # - The shell is interactive
 # - User does not have .no-bash-to-fish in fish config dir
 if [ ! -f "$HOME/.config/fish/.no-bash-to-fish" ]; then
-    if [[ $(ps --no-header --pid=$PPID --format=comm) != "fish" && -z ${BASH_EXECUTION_STRING} && -x "/bin/fish" && -z "$PS1" ]]; then
+    if [[ $(ps --no-header --pid=$PPID --format=comm) != "fish" && -z ${BASH_EXECUTION_STRING} && -x "/bin/fish" &&  $- == *i* ]]; then
     shopt -q login_shell && LOGIN_OPTION='--login' || LOGIN_OPTION=''
     exec fish $LOGIN_OPTION
     fi
