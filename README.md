@@ -1,6 +1,6 @@
 <p align="center"><img width="1000" height="auto" scale="5" alt="evenkite_logo" src="https://github.com/user-attachments/assets/80da63ea-6599-4026-9004-d48be32fad0c" /></p>
   <p align="center">An ultra-lightweight, atomic Linux distribution based on Fedora for the modern developer.</p>
-  <p align="center"><a href="https://github.com/emberaine/evenkite/actions/workflows/build.yml"><img src="https://github.com/emberaine/evenkite/actions/workflows/build.yml/badge.svg" alt="BlueBuild build badge"/></a></p>
+  <p align="center"><a href="https://github.com/emberaine/evenkite/actions/workflows/build.yml"><img src="https://github.com/emberaine/evenkite/actions/workflows/build.yml/badge.svg" alt="bluebuild build badge"/></a></p>
 
 ---
 
@@ -26,7 +26,7 @@ No opinionated themes or icons, just a nice, clean set of default apps, wallpape
 
 To rebase an existing atomic Fedora installation to the latest build:
 
-- First, rebase to the unsigned image, to get the proper signing keys and policies installed:
+- First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
   rpm-ostree rebase ostree-unverified-registry:ghcr.io/emberaine/evenkite:latest
   ```
@@ -34,7 +34,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
   systemctl reboot
   ```
-- Then, rebase to the signed image, like so:
+- Then rebase to the signed image, like so:
   ```
   rpm-ostree rebase ostree-image-signed:docker://ghcr.io/emberaine/evenkite:latest
   ```
@@ -47,7 +47,7 @@ The `latest` tag will automatically point to the latest build. That build will s
 
 ## ISO
 
-If built on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/how-to/generate-iso/#_top). These ISOs cannot, unfortunately, be distributed on GitHub for free due to large sizes, so, for public projects something else has to be used for hosting.
+If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/how-to/generate-iso/#_top). These ISOs cannot unfortunately, be distributed on GitHub for free due to large sizes, so, for public projects something else has to be used for hosting.
 
 ## Verification
 
