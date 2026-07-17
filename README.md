@@ -1,6 +1,6 @@
 <p align="center"><img width="1000" height="auto" scale="5" alt="evenkite_logo" src="https://github.com/user-attachments/assets/80da63ea-6599-4026-9004-d48be32fad0c" /></p>
   <p align="center">An ultra-lightweight, atomic Linux distribution based on Fedora for the modern developer.</p>
-  <p align="center"><a href="https://github.com/emberaine/evenkite/actions/workflows/build.yml"><img src="https://github.com/emberaine/evenkite/actions/workflows/build.yml/badge.svg" alt="Bluebuild build badge"/></a></p>
+  <p align="center"><a href="https://github.com/emberaine/evenkite/actions/workflows/build.yml"><img src="https://github.com/emberaine/evenkite/actions/workflows/build.yml/badge.svg" alt="bluebuild build badge"/></a></p>
 
 ---
 
