@@ -50,15 +50,16 @@ modules:
         - gnome-tour
         - yelp
         - gnome-software
+        - gnome-shell-extension-background-logo
 
   - type: gnome-extensions
     install:
-      - 3193
-      - 615
-      - 3843
-      - 779
-      - 3396
-      - 517
+      - 3193 # Blur my Shell
+      - 615 # AppIndicator and KStatusNotifierItem Support
+      - 3843 # Just Perfection
+      - 779 # Clipboard Indicator
+      - 3396 # Color Picker
+      - 517 # Caffeine
 
   - type: brew
     nofile-limits: true # increase nofile limits
