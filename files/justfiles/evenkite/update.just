@@ -1,5 +1,3 @@
-alias upgrade := update
-
 # Update everything on Evenkite all at once
 update:
 	#!/bin/bash
