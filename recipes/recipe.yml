@@ -22,10 +22,12 @@ modules:
       cleanup: true
       copr:
         - lilay/topgrade
+        - realorangekun/fetch
     install:
       packages:
         - oh-my-posh
         - fastfetch
+        - fetch
         - hyfetch
         - cava
         - cmatrix
@@ -48,6 +50,17 @@ modules:
         - gnome-tour
         - yelp
         - gnome-software
+
+  - type: gnome-extensions
+    install:
+      - Blur my Shell
+      - AppIndicator and KStatusNotifierItem Support
+      - Just Perfection
+      - Clipboard Indicator
+      - Color Picker
+      - Caffeine
+    uninstall:
+      - Background Logo
 
   - type: brew
     nofile-limits: true # increase nofile limits
