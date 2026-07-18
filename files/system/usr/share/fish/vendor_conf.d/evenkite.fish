@@ -12,3 +12,12 @@ function fastfetch
         command fastfetch $argv
     end
 end
+
+function hyfetch
+    if test (count $argv) -eq 0
+        command hyfetch \
+            --ascii-file "/usr/share/evenkite/fastfetch/logo.txt"
+    else
+        command hyfetch $argv
+    end
+end
