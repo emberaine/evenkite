@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Update Evenkite
+Comment=Update everything on Evenkite all at once
+Icon=/usr/share/pixmaps/fedora-logo-sprite.svg
+Categories=ConsoleOnly;System;
+Terminal=true
+Exec=/usr/bin/blujust update

@@ -79,6 +79,8 @@ modules:
     system:
       enabled:
         - tailscaled.service
+  
+  - type: justfiles
 
   - type: os-release
     properties:
